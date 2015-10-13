@@ -112,18 +112,35 @@ PIC, 室温。
 * 乙酸乙酯, 乙醇 (Merck) 用作挥发性有机溶剂
 * 聚山梨醇（吐温）80 (Croda), 表面活性剂
 * 盐酸洛哌丁胺 (Sigma-Aldrich)
-* 鼠铁传递蛋白受体的单克隆抗体(Bionova)
+* 鼠铁传递蛋白受体(8D3)的单克隆抗体(Bionova)
 * N-(3-dimethylaminopropyl)-N-ethylcarbodiimide hydrochloride (EDC) (Fluka)
 * N-hydroxisuccinimide sodium salt (NHS) (Sigma-Aldrich)
 * NaCl, Na2HPO4·H2O, NaH2PO4·H2O (Merck)
 * Water (微滤)
-* CD1雄鼠，体重 30-35g (Harlan) 
+* CD1雄鼠，体重 30-35g，*原文有误* (Harlan) 
 
 ### 方法
 
 #### 制备O/W型聚合纳米乳液
 
+25°C，将 phosphate buffer saline(PBS, 磷酸缓冲盐溶液)，逐步加入到吐温80和(乙醇:乙酸乙酯 = 20/80)的混合物中，包含4%(质量百分数)的PLGA以及0.1%的LOP(洛哌丁胺)。
 
+是否制备成功？
+
+* 看：在水，表面活性剂，油相示意图中可以看到透明，半透明或轻微不透明的，显露出蓝色或红色的地方被认为是纳米乳液。
+* 进一步确认：使用动态光散射描绘出粒子的尺寸。
+
+#### 通过纳米乳液模板制备纳米微粒
+
+使用 Buchi R-215V Rotavapor 设备在减压条件下，将溶剂蒸干得到纳米微粒分散态。
+
+25°C，将4g纳米乳液的蒸干的条件是：45mbars的真空环境，150rpm的转速，45min。蒸发完成后，产物用微滤水调整为等渗溶液(300 mOsm/kg)。
+
+在体内和体外的研究过程中，纳米微粒被浓缩以达到具有治疗作用的LOP浓度。浓缩过程使用 Centriprep® YM-3, 3 kDa 离心过滤器完成。
+
+浓缩完成后，需要进行24h的透析来达到生理学的pH和等渗值(pH = 7.4 and osmolality = 300 mOsm/kg)。
+
+约定：NP(0,8D3)表示未搭载药物的纳米微粒对8D3抗体的作用。NE则表示纳米乳液。
 
 ## 结果
 
