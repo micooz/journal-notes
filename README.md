@@ -102,7 +102,11 @@ PIC, 室温。
 
 作为一个**没有阵痛效果(无法进入CNS)**的药物模型。用聚合纳米微粒搭载洛哌丁胺研究BBB透过性有很广泛的应用。
 
-搭载有洛哌丁胺的纳米微粒对铁传递蛋白受体的单克隆抗体有作用。
+搭载有洛哌丁胺的纳米微粒对铁传递蛋白受体(8D3)的单克隆抗体有作用。
+
+补充：
+
+8D3抗体是一种针对老鼠的，对抗铁传递蛋白受体在BBB中的过度表达的单克隆抗体。它被用于动物体外实验。因此经过8D3抗体修饰过的纳米微粒会靶向作用于对应的受体上。
 
 ## 2. 材料和方法
 
@@ -204,13 +208,44 @@ Drug loading (g/g)
 
 #### 2.2.6 体外释放实验
 
+透析袋，通过 Thermojacketted glasses 保温在25°C。袋内装满受体溶液50mL。
 
-#### 2.2.7 纳米微粒表面作用
+Molecular Weight Cut off(MWCO, 截流分子量)在3.5-5 KDa的膜，2mL样品并用受体溶液润湿。
 
+每间隔一定的时间就取出1mL受体溶液，用HPLC分析其中LOP的浓度。
+
+#### 2.2.7 纳米微粒表面修饰
+
+纳米微粒表面由于，8D3抗体上的**氨基**与PLGA聚合物上的**羧基**的**共价结合**，而被活化。
+
+补充，碳亚二胺反应：
+
+![][4]
+
+https://en.wikipedia.org/wiki/Carbodiimide
+
+实验操作：
+
+1. 用HCl酸化4g纳米微粒分散体(pH = 4.5-6)，加入过量的EDC和NHS，在25 °C下搅拌2h。
+2. 取150 μL已活化的纳米微粒分散体，用NaOH调整pH=8。
+3. 再取150 μL 8D3抗体(浓度：1 mg/mL, 0.5 mg/mL 或 0.25 mg/mL根据样品而定)加入到上面的溶液中。
+4. 25 °C下搅拌培养混合物18h。
+
+鉴定抗体是否成功与纳米微粒表面共价结合？
+
+通过 size exclusion chromatography(SEC, 分子排阻色谱)，HPLC测定。
+
+补充：
+
+**Size-exclusion chromatography**
+
+> Size-exclusion chromatography (SEC) is a chromatographic method in which molecules in solution are separated by their size.
+> https://en.wikipedia.org/wiki/Size-exclusion_chromatography
+
+#### 2.2.8 体外细胞可行性分析
 
 
 ## 结果
-
 
 
 ## 讨论
@@ -219,3 +254,4 @@ Drug loading (g/g)
   [1]: https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Loperamide.svg/500px-Loperamide.svg.png
   [2]: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Haloperidol2DACS2.svg/500px-Haloperidol2DACS2.svg.png
   [3]: Huckel–Onsager.png
+  [4]: Carbodiimide_Amide_Coupling_Scheme.png
