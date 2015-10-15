@@ -61,7 +61,7 @@ BBB限制了药物到达中枢神经系统 -> 目前治疗手段功效差 -> 需
 > is a test of the pain response in animals, similar to the tail flick test. It is used in basic pain research and in testing the effectiveness of analgesics(止痛剂) by observing the reaction to pain caused by heat.
 > https://en.wikipedia.org/wiki/Hot_plate_test
 
-## 简介
+## 1. 简介
 
 ### Nanocarriers
 
@@ -104,9 +104,9 @@ PIC, 室温。
 
 搭载有洛哌丁胺的纳米微粒对铁传递蛋白受体的单克隆抗体有作用。
 
-## 材料和方法
+## 2. 材料和方法
 
-### 材料
+### 2.1 材料
 
 * PLGA (Boehringer Ingelheim)  / 羟基乙酸 = 75/25
 * 乙酸乙酯, 乙醇 (Merck) 用作挥发性有机溶剂
@@ -119,9 +119,9 @@ PIC, 室温。
 * Water (微滤)
 * CD1雄鼠，体重 30-35g，*原文有误* (Harlan) 
 
-### 方法
+### 2.2 方法
 
-#### 制备O/W型聚合纳米乳液
+#### 2.2.1 制备O/W型聚合纳米乳液
 
 25°C，将 phosphate buffer saline(PBS, 磷酸缓冲盐溶液)，逐步加入到吐温80和(乙醇:乙酸乙酯 = 20/80)的混合物中，包含4%(质量百分数)的PLGA以及0.1%的LOP(洛哌丁胺)。
 
@@ -130,7 +130,7 @@ PIC, 室温。
 * 看：在水，表面活性剂，油相示意图中可以看到透明，半透明或轻微不透明的，显露出蓝色或红色的地方被认为是纳米乳液。
 * 进一步确认：使用动态光散射描绘出粒子的尺寸。
 
-#### 通过纳米乳液模板制备纳米微粒
+#### 2.2.2 通过纳米乳液模板制备纳米微粒
 
 使用 Buchi R-215V Rotavapor 设备在减压条件下，将溶剂蒸干得到纳米微粒分散态。
 
@@ -142,6 +142,66 @@ PIC, 室温。
 
 约定：NP(0,8D3)表示未搭载药物的纳米微粒对8D3抗体的作用。NE则表示纳米乳液。
 
+#### 2.2.3 纳米乳液及纳米微粒的物化性质
+
+液滴大小及其分布通过 dynamic light scattering(DLS, 动态光源散射) 确定。
+
+仪器和条件：
+
+* 分光计(LS Instruments, 3D 正交多重散射)
+* 温度：25°C
+* 632.8 nm He-Ne 光源
+* 散射角为90°
+
+ζ值由 Electrophoretic 的流动性测量设备和 Zetasizer NanoZS instrument (Malvern Co. Ltd., UK)，条件：
+
+* 633nm He-Ne 光源
+
+应用 Huckel-Onsager 方程计算得到：
+
+![][3]
+
+* εr 表示水的相对介电常数
+* ε0 表示真空介电常数
+* η 表示液体黏度
+
+由于这个公式只适用于低流动性液体，因此样本用蒸馏水以1:20稀释。
+
+所设计的纳米乳液和纳米微粒的稳定性，在25°C由肉眼观察到的宏观改变来评估。
+
+2.2.4 洛哌丁胺定量分析
+
+HPLC：
+
+* Breeze HPLC (Waters Corporation, Milford, MA, USA)
+* UV检测器，220nm(LOP具有最大吸收)
+* 流动相：1.824mM，磷酸:乙腈 = 1:1，pH = 3.5，30°C
+* 流速：1 mL/min
+* 进样：50μL
+* 分析50min
+
+LOP的保留时间大约是42min。
+
+2.2.5 诱导效率和载药分析
+
+通过离心分离器(Amicon Ultra-15 Centrifugal Filter Unit with Ultracell-3 Membrane, Millipore, Billerica, Massachusetts, USA)，离心已载药的纳米微粒达到3000Da，然后用HPLC(同型号和条件)分析游离出来的药物。
+
+离心条件：
+
+* 2300g
+* 75min
+* 25°C
+
+药物诱导效率和载药率根据两个公式计算：
+
+Entrapment efficiency (wt./wt.%) = (initial drug amount − free drug) / initial drug amount * 100 = (起始药物质量分数 − 剩余药物质量分数) / 起始药物质量分数 * 100
+
+Drug loading (g/g) = amount of drug in nanoparticles / g of PLGA = 在纳米微粒上的药物质量 / PLGA的质量
+
+2.2.7 纳米微粒表面作用
+
+
+
 ## 结果
 
 
@@ -151,3 +211,4 @@ PIC, 室温。
 
   [1]: https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Loperamide.svg/500px-Loperamide.svg.png
   [2]: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Haloperidol2DACS2.svg/500px-Haloperidol2DACS2.svg.png
+  [3]: Huckel–Onsager.png
