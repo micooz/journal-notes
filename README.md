@@ -169,7 +169,7 @@ PIC, 室温。
 
 所设计的纳米乳液和纳米微粒的稳定性，在25°C由肉眼观察到的宏观改变来评估。
 
-2.2.4 洛哌丁胺定量分析
+#### 2.2.4 洛哌丁胺定量分析
 
 HPLC：
 
@@ -182,7 +182,7 @@ HPLC：
 
 LOP的保留时间大约是42min。
 
-2.2.5 诱导效率和载药分析
+#### 2.2.5 诱导效率和载药分析
 
 通过离心分离器(Amicon Ultra-15 Centrifugal Filter Unit with Ultracell-3 Membrane, Millipore, Billerica, Massachusetts, USA)，离心已载药的纳米微粒达到3000Da，然后用HPLC(同型号和条件)分析游离出来的药物。
 
@@ -194,11 +194,18 @@ LOP的保留时间大约是42min。
 
 药物诱导效率和载药率根据两个公式计算：
 
-Entrapment efficiency (wt./wt.%) = (initial drug amount − free drug) / initial drug amount * 100 = (起始药物质量分数 − 剩余药物质量分数) / 起始药物质量分数 * 100
+Entrapment efficiency (wt./wt.%)
+= (initial drug amount − free drug) / initial drug amount * 100
+= (起始药物质量分数 − 剩余药物质量分数) / 起始药物质量分数 * 100
 
-Drug loading (g/g) = amount of drug in nanoparticles / g of PLGA = 在纳米微粒上的药物质量 / PLGA的质量
+Drug loading (g/g)
+= amount of drug in nanoparticles / g of PLGA
+= 在纳米微粒上的药物质量 / PLGA的质量
 
-2.2.7 纳米微粒表面作用
+#### 2.2.6 体外释放实验
+
+
+#### 2.2.7 纳米微粒表面作用
 
 
 
