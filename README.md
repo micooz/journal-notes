@@ -244,6 +244,46 @@ https://en.wikipedia.org/wiki/Carbodiimide
 
 #### 2.2.8 体外细胞可行性分析
 
+方法：MTT检验
+
+> The MTT assay is a colorimetric(比色) assay for assessing cell metabolic activity(代谢活动). NAD(P)H-dependent cellular oxidoreductase enzymes may, under defined conditions, reflect the number of viable cells present.
+> https://en.wikipedia.org/wiki/MTT_assay
+
+操作：
+
+* 将HeLa细胞接种到96个槽中，每个槽大约6x10^3个细胞和200 μL DMEM培养基。
+* 在37 °C下培养24h。
+* 将培养基替换为制备的合适浓度的样品。
+* 在37 °C，5% CO2气氛下培养24h。
+* 加入 0.5 mg/mL (25 μL) MTT试剂，和PBS磷酸缓冲液。
+* 再37 °C培养2h。
+* 加入DMSO 200 μL 溶解沉淀物。
+* 室温下震荡15min。
+
+用分光光度计(SpectraMax M5) 在 570nm 处测定吸收值。
+
+补充：
+
+**Hela**
+
+> https://en.wikipedia.org/wiki/HeLa
+
+#### 2.2.9 体内中枢阵痛作用研究
+
+将老鼠分为4组，保持水和食物供应，适应环境1周。动物实验原则参考：
+
+Animal Ethics Committee of the University of Barcelona，标准为86/609/EEC。
+
+旨在最小化动物的痛苦和减少动物用量。
+
+饲养条件：
+
+* 22 ± 1 °C，12-h 昼夜循环
+* 自由觅食(standard laboratory diet, PANLAB SL, Barcelona, Spain)，饮水。
+
+实验使用成年雄鼠(22-30g)，于尾静脉血管注射 5ml/kg 计量的吗啡(Spanish National Health Service 提供)。
+
+
 
 ## 结果
 
