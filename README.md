@@ -283,15 +283,62 @@ Animal Ethics Committee of the University of Barcelona，标准为86/609/EEC。
 
 实验使用成年雄鼠(22-30g)，于尾静脉血管注射 5ml/kg 计量的吗啡(Spanish National Health Service 提供)。
 
+痛觉通过热板分析仪 LE 7406 (PANLAB, SL, Barcelona, Spain)测试，小鼠被放置于设备中，设备通过温度调节器控制水浴温度在 54 ± 0.5 °C。
 
+潜伏期的定义：从放置小鼠于热板到小鼠作出疼痛反应(舔前腿，跳出热板)的时间间隔。
 
-## 结果
+每只老鼠做两次试验，分别测试出**给药前**的潜伏期和**给药20min后**的潜伏期。
 
+经过预选，给药前的潜伏期超过10s的小鼠(约10%)被排除。热板测试截止时间为25s，超过25s没做出反馈的小鼠按25s计算。
 
-## 讨论
+给药计量： 3mg/kg；给药方式：尾经脉注射。
 
+吗啡和洛哌丁胺对阿片μ受体的作用非常相似，pKi (morphine) = 9.28; pKi (loperamide) = 9.00
+
+剂型：
+
+1. 0.16 M PBS 溶液
+2. 0.7 mg/ml (3 mg/kg) 吗啡水溶液
+3. NP(0)
+4. NP(0,8D3)
+5. NP(0.1)
+6. NP(0.1,8D3)
+7. 0.7 mg/ml (3 mg/kg)洛哌丁胺水溶液(含15%吐温80)
+8. 15%吐温80水溶液
+
+使用SPSS Statistics 17.0软件进行结果的统计分析。
+
+用**T检验**比较每组给药前和给药后的潜伏期的均值。
+
+maximal possible effect (MPE) 由下式计算：
+
+![%MPE][5]
+
+**Paired-Sample T Test**
+
+> Paired samples t-tests typically consist of a sample of matched pairs of similar units, or one group of units that has been tested twice.
+> https://en.wikipedia.org/wiki/Student%27s_t-test
+
+## 3. 结果
+
+#### 3.1 纳米乳液和纳米微粒的制备和特性
+
+#### 3.2 洛哌丁胺包装效率和体外释放
+
+#### 3.3 纳米微粒表面抗体的官能团化
+
+#### 3.4 体外细胞毒性分析
+
+#### 3.5 体内BBB透性
+
+## 4. 讨论
+
+## 5. 结论
+
+#### 鸣谢
 
   [1]: https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Loperamide.svg/500px-Loperamide.svg.png
   [2]: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Haloperidol2DACS2.svg/500px-Haloperidol2DACS2.svg.png
   [3]: Huckel–Onsager.png
   [4]: Carbodiimide_Amide_Coupling_Scheme.png
+  [5]: MPE.png
