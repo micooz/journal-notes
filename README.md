@@ -321,7 +321,13 @@ maximal possible effect (MPE) 由下式计算：
 
 ## 3. 结果
 
-#### 3.1 纳米乳液和纳米微粒的制备和特性
+#### 3.1 纳米乳液和纳米微粒的制备和表征
+
+模型系统：
+
+![][6]
+
+![][7]
 
 #### 3.2 洛哌丁胺包装效率和体外释放
 
@@ -342,3 +348,5 @@ maximal possible effect (MPE) 由下式计算：
   [3]: Huckel–Onsager.png
   [4]: Carbodiimide_Amide_Coupling_Scheme.png
   [5]: MPE.png
+  [6]: model_system.png
+  [7]: fig2.png
