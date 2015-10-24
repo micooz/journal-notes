@@ -400,7 +400,7 @@ NP(0.1)被8D3单克隆抗体修饰来拮抗铁传递蛋白受体在BBB中过度�
   [5]: images/MPE.png
   [6]: images/model_system.png
   [7]: images/Fig2.png
-  [8]: images/table2.png
+  [8]: images/Table2.png
   [9]: images/Fig3.png
   [10]: images/Table3.png
   [11]: images/Fig4.png
