@@ -331,6 +331,37 @@ maximal possible effect (MPE) 由下式计算：
 
 #### 3.2 洛哌丁胺包装效率和体外释放
 
+**包装效率**
+
+![][8]
+
+由分离/离心法评价的洛哌丁胺的包装效率(EE)高于99%。
+
+相当于载药浓度9 mg/g，25 mg/g PLGA的纳米微粒分散体系。
+
+使用低浓度的洛哌丁胺可达到体外治疗作用。
+
+先前准备的纳米微粒可通过**连续离心**的方法**浓缩**来达到洛哌丁胺的治疗剂量(1.5-7 mg/kg)。
+
+经过10次浓缩过程可讲洛哌丁胺浓缩到0.7 mg/mL(相当于给药300 μL, 剂量是7 mg/kg)。
+
+分散体系的pH值由于PBS的缓冲效应，在浓缩时不会被改变，但注意等渗值会变大。因此浓缩后有必要进行8h的透析过程来调整等渗值，使其达到生理值(300 mOsm/kg)。
+
+上述过程完成之后，ζ 电势和纳米微粒的大小和先前准备的纳米微粒参数很相似。
+
+**体外释放**
+
+下面将对比：洛哌丁胺从 **纳米微粒分散体**，**胶束溶液**以及**水溶液**中的释放作用。
+
+其中胶束溶液是15%吐温80水溶液。选择这种高浓度的表面活性剂的原因是为了：
+
+* 能溶解治疗量浓度的LOP
+* 进行体内试验的需要
+
+![][9]
+
+上图显示，LOP在水溶液中5天完全释放。而胶束中的LOP释放了75%，纳米粒中的LOP只释放了15%。
+
 #### 3.3 纳米微粒表面抗体的官能团化
 
 #### 3.4 体外细胞毒性分析
@@ -345,8 +376,10 @@ maximal possible effect (MPE) 由下式计算：
 
   [1]: https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Loperamide.svg/500px-Loperamide.svg.png
   [2]: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Haloperidol2DACS2.svg/500px-Haloperidol2DACS2.svg.png
-  [3]: Huckel–Onsager.png
-  [4]: Carbodiimide_Amide_Coupling_Scheme.png
-  [5]: MPE.png
-  [6]: model_system.png
-  [7]: fig2.png
+  [3]: images/Huckel–Onsager.png
+  [4]: images/Carbodiimide_Amide_Coupling_Scheme.png
+  [5]: images/MPE.png
+  [6]: images/model_system.png
+  [7]: images/Fig2.png
+  [8]: images/table2.png
+  [9]: images/Fig3.png
